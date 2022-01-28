@@ -1,0 +1,75 @@
+developed by Sun Microsystems and released in 1995
+Features ---> Object Oriented, Platform Independent, Simple, Secure, Architecture-neutral, Portable, Robust,
+Write Once Run Anywhere.
+=====================================================================================================================
+Environment Setup
+Once you installed Java on your machine, you will need to set environment variables to point to correct installation directories −
+
+Setting Up the Path for Windows
+Assuming you have installed Java in c:\Program Files\java\jdk directory −
+
+Right-click on 'My Computer' and select 'Properties'.
+
+Click the 'Environment variables' button under the 'Advanced' tab.
+
+Now, alter the 'Path' variable so that it also contains the path to the Java executable. Example, 
+if the path is currently set to 'C:\WINDOWS\SYSTEM32', 
+then change your path to read 'C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin'.
+=====================================================================================================================
+Java program, it can be defined as a collection of objects that communicate via invoking each other's methods
+
+Object − Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behavior 
+        such as wagging their tail, barking, eating. 
+          An object is an instance of a class.
+         (Software objects also have a state and a behavior. A software object's state is stored in fields and behavior is shown via methods.)
+         
+Class − A class can be defined as a template/blueprint that describes the behavior/state that the object of its type supports.
+        (A class is a blueprint from which individual objects are created.)
+
+Methods − A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, 
+          data is manipulated and all the actions are executed.
+Example :-
+public class Dog {
+   String breed;
+   int age;
+   String color;
+
+   void barking() {
+   }
+   void hungry() {
+   }
+   void sleeping() {
+   }
+}
+
+//barking(), hungry() and sleeping() are methods.
+=====================================================================================================================
+public class MyFirstJavaProgram {
+   /* This is my first java program.
+    * This will print 'Hello World' as the output
+    */
+   public static void main(String []args) {
+      System.out.println("Hello World"); // prints Hello World
+   }
+}
+------------------------------------------------------------------------------------
+C:\> javac MyFirstJavaProgram.java
+C:\> java MyFirstJavaProgram 
+Hello World
+------------------------------------------------------------------------------------
+-- Name of the program file should exactly match the class name.
+-- Java program processing starts from the main() method which is a mandatory part of every Java program.
+-- identifiers - Names used for classes, variables, and methods are called identifiers.
+-- Modifiers - to modify classes, methods, etc
+  Access Modifiers − default, public , protected, private
+  Non-access Modifiers − final, abstract, strictfp
+=====================================================================================================================
+A class can contain any of the following variable types :-
+--Local variables - declared and initialized within the method and the variable will be destroyed when the method has completed.
+
+--Instance variables −Instance variables are variables within a class but outside any method. These variables are initialized when 
+                    the class is instantiated.
+                    
+--Class variables − Class variables are variables declared within a class, outside any method, with the static keyword.                    
+========================================================================================================
+
