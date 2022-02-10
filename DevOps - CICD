@@ -1,0 +1,11 @@
+CICD -- Continuos Integration Continuos Delivery.
+######################################################################################################################################################
+Github -- Repository Manager (storage and version control tools for developed code)
+======================================================================================================================================================
+Jenkins -- CI Server (continuos Integration) server
+Whenever Developer pushes code to repository, Jenkins pipeline will run the build, It will run necessary scans and finally pushed the artifacts (code) to Main repository, for example Nexus Repository. Once the artifacts are stored in Nexus, Jenkins can do the deployment to desired servers.
+======================================================================================================================================================
+Sonatype Nexus Repository Manager -- Artifact storage and repo management tool. (Also it's Library manager for developers)
+======================================================================================================================================================
+Sonatype Nexus IQ -- Tool for security and risk related scan of code.
+======================================================================================================================================================
