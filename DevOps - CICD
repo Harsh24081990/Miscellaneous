@@ -1,11 +1,29 @@
 CICD -- Continuos Integration Continuos Delivery.
 ######################################################################################################################################################
-Github -- Repository Manager (storage and version control tools for developed code)
+Github ---> Repository Manager (storage and version control tools for developed code)
 ======================================================================================================================================================
-Jenkins -- CI Server (continuos Integration) server
+Sonatype Nexus Repository Manager ---> Artifact storage and repo management tool. (Also it's Library manager for developers)
+======================================================================================================================================================
+Ansible ---> Application deployment and configuration management tool.
+Tower ---> GUI utility to work on ansible.    
+we need to setup tower, write code (instructions) in .yaml file.
+It will fetch code from repository and will deploy onto target servers.
+======================================================================================================================================================
+Jenkins ---> CI Server (continuos Integration) server
 Whenever Developer pushes code to repository, Jenkins pipeline will run the build, It will run necessary scans and finally pushed the artifacts (code) to Main repository, for example Nexus Repository. Once the artifacts are stored in Nexus, Jenkins can do the deployment to desired servers.
 ======================================================================================================================================================
-Sonatype Nexus Repository Manager -- Artifact storage and repo management tool. (Also it's Library manager for developers)
+Sonatype Nexus IQ ---> Tool for security and risk related scan of code.
 ======================================================================================================================================================
-Sonatype Nexus IQ -- Tool for security and risk related scan of code.
+SonarQube ---> Code Quality Assurance tool that collects and analyzes source code, and provides reports for the code quality of your project.
+The code should follow a specific convention.
+The code should be following established good practices and have been followed.
+Checked for potential bugs and performance, security, or vulnerabilities issues.
+Is the code duplicated anywhere.
+Code Coverage: Computing how much a piece of code gets tested by test suites.
+Memory error detection: Checking whether or not memory leaks or errors occur.
+======================================================================================================================================================
+CyberFlow ---> CyberFlow Analytics is a cyber analytics company, founded in 2013. Their FlowScape system is an award-winning cyber security analytics platform, designed to empower analysts with 360-degree cyber situational awareness and meet the scale and complexity challenges of the Internet of things
+======================================================================================================================================================
+Checkmarx ---> is an enterprise-grade flexible and accurate static analysis solution used to identify hundreds of security vulnerabilities in custom code. 
+A core component of Checkmarx\'92s broader Software Security Platform CxSAST is used by development, DevOps and security teams to scan source code early in the SDLC to identify vulnerabilities and provide actionable remediation insights.
 ======================================================================================================================================================
