@@ -29,6 +29,7 @@ just open google colab and start writing code directly.
 --No need to define variables with their datatypes while defining variables. Directly can assign values to variables.
 -- python is case senstitive . means variable abc and ABC are are different. 
 -- use # to comment the lines. 
+-- no need to give line end statement like ; pressing enter is enough. 
 --best practice to define variable.. define them in camel case. 
 #camel case ex. totalRuns, birthDate 
 #pascal case ex. TotalRuns, BirthDate
