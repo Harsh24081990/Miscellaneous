@@ -30,6 +30,7 @@ just open google colab and start writing code directly.
 -- python is case senstitive . means variable abc and ABC are are different. 
 -- use # to comment the lines. 
 -- no need to give line end statement like ; pressing enter is enough. 
+However we can use ; to separate 2 statements if writing multiple statement in a single line. 
 --best practice to define variable.. define them in camel case. 
 #camel case ex. totalRuns, birthDate 
 #pascal case ex. TotalRuns, BirthDate
