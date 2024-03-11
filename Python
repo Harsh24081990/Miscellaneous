@@ -32,9 +32,9 @@ just open google colab and start writing code directly.
 -- no need to give line end statement like ; pressing enter is enough. 
 However we can use ; to separate 2 statements if writing multiple statement in a single line. 
 --best practice to define variable.. define them in camel case. 
-#camel case ex. totalRuns, birthDate 
-#pascal case ex. TotalRuns, BirthDate
-#snake case ex . total_runs, birth_date 
+#camel case --> totalRuns, birthDate 
+#pascal case --> TotalRuns, BirthDate
+#snake case ex --> total_runs, birth_date 
 
 #variables examples...
 myName="Harsh"   # string variable
@@ -45,3 +45,19 @@ z=True           # boolean variable
 #use variable without quotes.
 print(myName, x, y)
 
+Python Functions: -
+read() --> captures user input as string. Displays any message and give an option to user to enter any values. then captures the response as string. 
+round(n) --> round off the floating decimals to n decimal points. 
+
+### Python assignments ###
+#################################################
+#### Temperature Hot or Clod ??
+tempFer=int(input("Please Enter the tempreture in Fahrenheite"))  
+print("Temperature in Ferenheite is :", tempFer, "degree ferenheite")
+tempCel=((tempFer-32)*(5/9))
+print("Temperature in celcius is :" ,tempCel, "degree celcius")
+print("Temperature in celcius is :" ,round(tempCel,2), "degree celcius")  
+if (tempCel > 35):
+    print("It's hot")
+else: print("Its cool")
+#################################################
