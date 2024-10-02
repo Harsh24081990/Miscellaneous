@@ -4,7 +4,7 @@
 -Easier Maintenance: Using a hash can make your code cleaner and easier to maintain. If you need to add more columns in the future, you just update the hashing function rather than modifying multiple comparisons.
 
 #### Considerations
--Hash Collisions: Although rare, there is a possibility of hash collisions (two different inputs producing the same hash). If data integrity is crucial, ensure that your use case can tolerate this risk or consider using a more collision-resistant hashing algorithm like SHA-256.
+--Hash Collisions: Although rare, there is a possibility of hash collisions (two different inputs producing the same hash). If data integrity is crucial, ensure that your use case can tolerate this risk or consider using a more collision-resistant hashing algorithm like SHA-256.
 Overhead of Hashing: There is some computational overhead in generating the hash itself, but this is generally offset by the savings in comparison time.
 ------------------------------------------------------
 ### What is MD?
