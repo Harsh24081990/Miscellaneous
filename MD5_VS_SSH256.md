@@ -1,7 +1,7 @@
 ### Benefits of Using MD5
--Reduced Comparison Complexity: Instead of comparing 10 columns individually, you only need to compare one hash value. This simplifies the logic and can reduce processing time.
--Performance Improvement: Hashing functions like MD5 are generally efficient and can lead to improved performance, especially when dealing with large datasets. Instead of checking each column, you can quickly check the hash value.
--Easier Maintenance: Using a hash can make your code cleaner and easier to maintain. If you need to add more columns in the future, you just update the hashing function rather than modifying multiple comparisons.
+- Reduced Comparison Complexity: Instead of comparing 10 columns individually, you only need to compare one hash value. This simplifies the logic and can reduce processing time.
+- Performance Improvement: Hashing functions like MD5 are generally efficient and can lead to improved performance, especially when dealing with large datasets. Instead of checking each column, you can quickly check the hash value.
+- Easier Maintenance: Using a hash can make your code cleaner and easier to maintain. If you need to add more columns in the future, you just update the hashing function rather than modifying multiple comparisons.
 
 #### Considerations
 - Hash Collisions: Although rare, there is a possibility of hash collisions (two different inputs producing the same hash). If data integrity is crucial, ensure that your use case can tolerate this risk or consider using a more collision-resistant hashing algorithm like SHA-256.
