@@ -1,11 +1,11 @@
 ### API (Application Programming Interface)
-An API is a broad term that refers to any interface that allows two or more applications or systems to communicate with each other. It defines a set of rules and protocols that specify how different software components should interact.
+- An API is a broad term that refers to any interface that allows two or more applications or systems to communicate with each other. It defines a set of rules and protocols that specify how different software components should interact.
 ------------------------------------------------------------------------------------------------
-Types of APIs:
+****Types of APIs:
 	• Web APIs: Allows applications to communicate over the web using HTTP/HTTPS protocols (e.g., REST, SOAP, GraphQL).
 	• Library APIs: Provides functions and methods in a programming language that developers can use directly in their applications. (e.g. PySpark, Pandas etc.)
 	• Operating System APIs: Interfaces to interact with the operating system (e.g., file system APIs, device APIs).
-	• Hardware APIs: Enables communication with hardware devices.
+	• Hardware APIs: Enables communication with hardware devices.****
 ------------------------------------------------------------------------------------------------
 ### REST API (Representational State Transfer API):
 Definition: A REST API is a specific type of web API that follows the principles of REST architecture. REST APIs are designed for communication over the web using HTTP/HTTPS and rely on a stateless, client-server communication model.
