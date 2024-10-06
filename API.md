@@ -14,7 +14,7 @@ REST APIs are widely used for building web services, enabling client application
 
 - --> Resources (e.g., data objects, files) are represented with URIs (Uniform Resource Identifiers), and actions are performed using HTTP methods.
 HTTP methods: REST APIs primarily use:<br>
-**	• GET: Retrieve data.<br>
+      **• GET: Retrieve data.<br>
 	• POST: Create data.<br>
 	• PUT: Update data.<br>
 	• DELETE: Remove data.<br>**
