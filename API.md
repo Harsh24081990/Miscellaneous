@@ -13,11 +13,11 @@ Definition: A REST API is a specific type of web API that follows the principles
 REST APIs are widely used for building web services, enabling client applications to retrieve or modify resources from a server (such as data in a database) via standardized HTTP methods. REST APIs allow applications to access and manipulate resources (data) in a lightweight and scalable way, often using JSON as the data format.
 
 - --> Resources (e.g., data objects, files) are represented with URIs (Uniform Resource Identifiers), and actions are performed using HTTP methods.
-HTTP methods: REST APIs primarily use:
-	• GET: Retrieve data.
-	• POST: Create data.
-	• PUT: Update data.
-	• DELETE: Remove data.
+HTTP methods: REST APIs primarily use:<br>
+**	• GET: Retrieve data.<br>
+	• POST: Create data.<br>
+	• PUT: Update data.<br>
+	• DELETE: Remove data.<br>**
 ------------------------------------------------------------------------------------------------
 - Example:
 	A REST API for a weather service might allow you to retrieve current weather information by sending a GET request to https://api.weather.com/current?city=London
