@@ -1,7 +1,0 @@
-################## GCP #####################################################
-Authenticate service account using JSON key
-gcloud auth activate-service-account wfm-egress-transfer@hsbc-9553155-ihubglobal-dev.iam.gserviceaccount.com --key-file=wfm.json
-gcloud auth activate-service-account wfm-egress-transfer@hsbc-9553155-ihubglobal-dev.iam.gserviceaccount.com --key-file=wfm.json
-gsutil ls gs://hsbc-9553155-ihubglobal-dev-variant-out-eu2/
-/data/juniper/sftp/hdf58-sftp-wfm-uk/upload/ 
-====================================================================================
