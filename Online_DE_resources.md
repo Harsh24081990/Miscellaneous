@@ -1,8 +1,4 @@
-Databricks is taking over the Data Engineering world. 
-
-Here’s how you can master it by 2025!
-
-
+## Databricks is taking over the Data Engineering world. 
 1. Introduction to Data Lakehouse | Databricks led training module
 (Databricks)
 🔗 https://lnkd.in/gefjt4QC
@@ -19,10 +15,6 @@ Here’s how you can master it by 2025!
 (Mr. K Talks Tech)
 🔗 https://lnkd.in/gQ7RT5kJ
 -----------------------------------------------------------
-Don't pay for Data Engineering Projects when you can get them for free..
-Here are some Data Engineering 𝐄𝐧𝐝 𝐭𝐨 𝐄𝐧𝐝 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 :
-
-
 1. Apache Spark End-To-End Data Engineering Project | Apple Data Analysis
 (Ankur Ranjan)
 🔗 https://lnkd.in/gBcDNUDK
@@ -43,4 +35,18 @@ Here are some Data Engineering 𝐄𝐧𝐝 𝐭𝐨 𝐄𝐧𝐝 𝐏𝐫𝐨�
 6. Fabric Build Your End-to-End Project in Just 3 Hours: Master Azure Data Engineering | Bing Data Analytics ( Mr. K Talks Tech )
 🔗 https://lnkd.in/gXPQZqCu 
 ------------------------------------------------------------------------------------
+
+## SPARK related
+##### Web-pages to read: - 
+Spark Learning Guide: -
+https://github.com/ankurchavda/SparkLearning/blob/master/README.md
+https://github.com/ankurchavda/SparkLearning/tree/master/advanced
+---------------------------------------------
+https://datastrophic.io/core-concepts-architecture-and-internals-of-apache-spark/
+----------------------------------------------
+https://sparkbyexamples.com/
+----------------------------------------------
+Apache Spark Documentation: - 
+https://spark.apache.org/docs/3.5.2/
+----------------------------------------------
 
