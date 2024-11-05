@@ -37,16 +37,22 @@
 ------------------------------------------------------------------------------------
 
 ## SPARK related
-##### Web-pages to read: - 
+#### Web-pages to read: -
 Spark Learning Guide: -
+
 https://github.com/ankurchavda/SparkLearning/blob/master/README.md
 https://github.com/ankurchavda/SparkLearning/tree/master/advanced
+
 ---------------------------------------------
 https://datastrophic.io/core-concepts-architecture-and-internals-of-apache-spark/
+
 ----------------------------------------------
 https://sparkbyexamples.com/
+
 ----------------------------------------------
 Apache Spark Documentation: - 
 https://spark.apache.org/docs/3.5.2/
+
 ----------------------------------------------
+
 
