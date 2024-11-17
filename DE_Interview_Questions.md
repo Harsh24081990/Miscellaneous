@@ -1,18 +1,18 @@
 # Interview-Spark/Data Engineering
 
-Question 1:
+**Question 1:**
 You're monitoring Spark jobs, and one job is taking more time to complete but hasn't failed. What are the possible reasons for this Spark job running very slowly?
 
-Question 2:
+**Question 2:**
 In Spark, if you have one large table and one small table, which join would you apply, and why? How does it work internally?
 
-Question 3:
+**Question 3:**
 You are the only one managing ETL jobs and need to design a cluster to process 500 GB to 1 TB of data every day. You have resources of 8 nodes, each with 32GB RAM and 8 CPU cores. How would you configure executors, and what would be the memory and cores allocation for each executor? Explain the different categories of memory with the exact amount each occupies.
 
-Question 4:
+**Question 4:**
 You deployed a Spark ETL job today in production, and it was working fine. Unfortunately, it broke the next day because two columns were unexpectedly added to the dataset (from 50 columns to 52 columns). This happened in production. How would you handle this situation?
 
-Question 5:
+**Question 5:**
 In Spark, when you execute the code, it will create:
 
 - Stages
@@ -22,56 +22,56 @@ In Spark, when you execute the code, it will create:
 - Tasks
 Could you please explain how these are created?
 
-Question 6:
+**Question 6:**
 There are many file formats available, but in Spark, we often use Parquet. What are the reasons for using Parquet over other file formats like JSON, ORC, CSV, and TXT?
 
-Question 7:
+**Question 7:**
 If you have one table with 100 TB and another table with 1 GB, and you are performing joins, how would you try to optimize this?
 
-Question 8:
+**Question 8:**
 If you are using an on-premise cluster, how do you check how much memory and cores are allocated to each team?
 
-Question 9:
+**Question 9:**
 You mentioned you have a 100 TB table and are joining it with a 1 GB table. How much time would that job take to complete?
 
-Question 10:
+**Question 10:**
 You need to process a 100 TB data file. You have 8 nodes, each with 64GB RAM and 8 CPU cores. How would you handle this 100 TB file using this cluster size?
 
-Question 11:
+**Question 11:**
 Imagine you need to join two large datasets in Spark, but one of the datasets cannot fit into memory. How would you approach this situation?
 
-Question 12:
+**Question 12:**
 For unit testing, what framework are you using, and what scenarios are you checking as part of unit testing?
 
- Question 13:
+ **Question 13:**
 You have cleaned your data and are now trying to store it in your data warehouse. If you use the overwrite mode, what happens? If you use the append mode, what happens? If you need to maintain historical data, how do you maintain it?
 
 -------------------------------------------------------------------------------
-Interviewer: You're running a Spark job on a large dataset stored in HDFS. Suddenly, you notice that the job is taking longer than usual to complete. How would you troubleshoot ?
+**Interviewer**: You're running a Spark job on a large dataset stored in HDFS. Suddenly, you notice that the job is taking longer than usual to complete. How would you troubleshoot ?
 
-Candidate: When faced with a slowdown in a Spark job, several factors could be contributing to the issue. Here's how I would approach:
+**Candidate**: When faced with a slowdown in a Spark job, several factors could be contributing to the issue. Here's how I would approach:
 
-Interviewer: What would be your initial steps in troubleshooting the slow Spark job?
+**Interviewer**: What would be your initial steps in troubleshooting the slow Spark job?
 
  I would check the Spark UI to gather information about the job's execution, including task progress, stage durations, and resource utilization. This can help identify bottlenecks and performance issues within the job.
 
-Interviewer: Could you provide some specific metrics or indicators you'd look for in the Spark UI?
+**Interviewer**: Could you provide some specific metrics or indicators you'd look for in the Spark UI?
 
 I'd focus on metrics such as task duration, shuffle read/write times, executor CPU and memory utilization, and garbage collection activity. These metrics can provide insights into potential performance bottlenecks, such as data skew, resource contention, or inefficient task execution.
 
-Interviewer: If you notice high shuffle read/write times in the Spark UI, how would you investigate further?
+**Interviewer**: If you notice high shuffle read/write times in the Spark UI, how would you investigate further?
 
 High shuffle read/write times often indicate issues with data skew or inefficient shuffle operations. I would drill down into the stage details in the Spark UI to identify tasks with disproportionately high shuffle read/write times. Analyzing the data distribution and partitioning strategy can help pinpoint the cause of the skew and optimize the shuffle operations accordingly.
 
-Interviewer: What steps would you take if you suspect resource contention as the cause of the slowdown?
+**Interviewer**: What steps would you take if you suspect resource contention as the cause of the slowdown?
 
 If resource contention is suspected, I would examine executor CPU and memory utilization to identify any resource bottlenecks. Increasing executor memory or adjusting the number of executors can help alleviate resource contention and improve job performance. Additionally, optimizing resource allocation and task scheduling parameters in the Spark configuration can further optimize resource utilization.
 
-Interviewer: Suppose you've optimized resource utilization, but the job is still running slower than expected. What other factors would you consider?
+**Interviewer**: Suppose you've optimized resource utilization, but the job is still running slower than expected. What other factors would you consider?
 
 If resource utilization is optimized, I would investigate other potential factors impacting job performance, such as inefficient data processing logic, data skew, or suboptimal partitioning strategies. Analyzing the job's DAG  and execution plan can provide insights into the data processing flow and identify opportunities for optimization.
 
-Interviewer: How would you ensure the stability and reliability of the Spark job after troubleshooting and optimization?
+**Interviewer**: How would you ensure the stability and reliability of the Spark job after troubleshooting and optimization?
 
 After troubleshooting and optimization, I would conduct thorough testing to validate the stability and reliability of the Spark job under varying workload conditions and data scenarios. This includes performance testing, stress testing, and fault tolerance testing to ensure the job performs reliably and efficiently in production environments.
 
@@ -80,22 +80,22 @@ After troubleshooting and optimization, I would conduct thorough testing to vali
  # 𝐃𝐄 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰📢 𝐒𝐩𝐚𝐫𝐤 ⌛ 𝟏-𝐌𝐢𝐧-𝐑𝐞𝐚𝐝
 🔍 𝐖𝐡𝐞𝐧 𝐜𝐚𝐧 𝐮𝐬𝐢𝐧𝐠 𝐂𝐨𝐚𝐥𝐞𝐬𝐜𝐞 𝐥𝐞𝐚𝐝 𝐭𝐨 𝐟𝐚𝐢𝐥𝐮𝐫𝐞 𝐢𝐧 𝐒𝐩𝐚𝐫𝐤?
 
-🧔🏽‍♂ Interviewer: Explain when Coalesce can lead to failure in Spark?
-👨‍🦰 Interviewee: Coalesce is a Spark transformation used to reduce the number of partitions in a DataFrame or RDD. While it's generally efficient, there are scenarios where using Coalesce can cause issues.
+🧔🏽‍♂ **Interviewer**: Explain when Coalesce can lead to failure in Spark?
+👨‍🦰 **Interviewee**: Coalesce is a Spark transformation used to reduce the number of partitions in a DataFrame or RDD. While it's generally efficient, there are scenarios where using Coalesce can cause issues.
 
-🧔🏽‍♂ Interviewer: Could you provide an example of such a scenario?
-👨‍🦰 Interviewee: When reducing the number of partitions using Coalesce, Spark combines data from multiple partitions into a smaller number of partitions. If the combined data exceeds the memory limits of the executor nodes, it can lead to out-of-memory errors or even executor failures.
+🧔🏽‍♂ **Interviewer**: Could you provide an example of such a scenario?
+👨‍🦰 **Interviewee**: When reducing the number of partitions using Coalesce, Spark combines data from multiple partitions into a smaller number of partitions. If the combined data exceeds the memory limits of the executor nodes, it can lead to out-of-memory errors or even executor failures.
 
-🧔🏽‍♂ Interviewer: How can this situation be avoided?
-👨‍🦰 Interviewee: One approach is to use repartition instead of coalesce when you need to increase the number of partitions. Repartition shuffles data across partitions more evenly, reducing the risk of data skew and memory issues. Additionally, monitoring the memory usage of executor nodes and adjusting partition sizes accordingly can help prevent failures.
+🧔🏽‍♂ **Interviewer**: How can this situation be avoided?
+👨‍🦰 **Interviewee**: One approach is to use repartition instead of coalesce when you need to increase the number of partitions. Repartition shuffles data across partitions more evenly, reducing the risk of data skew and memory issues. Additionally, monitoring the memory usage of executor nodes and adjusting partition sizes accordingly can help prevent failures.
 
-🧔🏽‍♂ Interviewer: Are there any other considerations when using Coalesce?
-👨‍🦰 Interviewee: Yes, another consideration is data skew. If there's significant data skew in the original partitions, Coalesce may not evenly distribute the data across the reduced number of partitions. This can lead to uneven processing and performance issues, especially in downstream operations.
+🧔🏽‍♂ **Interviewer**: Are there any other considerations when using Coalesce?
+👨‍🦰 **Interviewee**: Yes, another consideration is data skew. If there's significant data skew in the original partitions, Coalesce may not evenly distribute the data across the reduced number of partitions. This can lead to uneven processing and performance issues, especially in downstream operations.
 
 ----------------------------------------------------------------------
 
 # Interview Questions- Expected Answers
-Apache Spark
+**Apache Spark**
 1. Which version(s) of Apache Spark have you worked with?
 A: "I have worked with Spark 2.4 and 3.0."
 Big Data ETL Pipelines
@@ -250,3 +250,46 @@ Table
 13. Given a dataset containing alphanumeric values and integers, how would you extract specific alphanumeric sequences like "ML," "GM," and "LTR" and create a new DataFrame to view only these sequences in Spark?
 14. What kind of questions have you encountered related to data modeling in your projects?
 ---------------------------------------------------------------------------------------
+# Spark / PySpark / Databricks Interview Questions
+
+1. Describe the PySpark architecture.
+2. What are RDDs in PySpark?
+3. Explain the concept of lazy evaluation in PySpark.
+4. How does PySpark differ from Apache Hadoop?
+5. What are DataFrames in PySpark?
+6. How do you initialize a SparkSession?
+7. What is the significance of the SparkContext?
+8. Describe the types of transformations in PySpark.
+9. What is Azure Databricks.
+10. Explain the role of Apache Spark in Azure Databricks.
+11. How do you configure a Spark cluster in Azure Databricks?
+12. What are the advantages of using PySpark in Azure Databricks for data processing?
+13. Describe the concept of notebooks in Azure Databricks.
+14. How do Azure Databricks workspaces enhance collaboration?
+15. What is the Databricks File System (DBFS), and how is it used?
+16. How do you schedule jobs in Azure Databricks?
+17. Explain the significance of Delta Lake in Azure Databricks.
+18. How do you read a CSV file into a PySpark DataFrame?
+19. What are actions in PySpark, and how do they differ from transformations?
+20. How can you filter rows in a DataFrame?
+21. Explain how to perform joins in PySpark.
+22. How do you aggregate data in PySpark?
+23. What are UDFs (User Defined Functions), and how are they used?
+24. How can you handle missing or null values in PySpark?
+25. How do you repartition a DataFrame, and why?
+26. Describe how to cache a DataFrame. Why is it useful?
+27. How do you save a DataFrame to a file?
+28. What is the Catalyst Optimizer?
+29. Explain the concept of partitioning in PySpark.
+30. How can broadcast variables improve performance?
+31. What are accumulators, and how are they used?
+32. Describe strategies for optimizing PySpark jobs.
+33. What is the significance of the Tungsten execution engine?
+34. How does PySpark handle data skewness?
+35. What are the best practices for managing memory in PySpark?
+36. How can you monitor the performance of a PySpark application?
+38. Explain how checkpointing works in PySpark.
+39. What is delta lake
+40. What is data lakehouse architecture.
+
+
