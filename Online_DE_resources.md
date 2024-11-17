@@ -103,5 +103,8 @@ Here’s how you can master it by 2025!
 🔗 https://lnkd.in/gQ7RT5kJ
 
 -----------------------------------------------------------------
+An End to End Azure Data Engineering Real Time Project Demo | Get Hired as an Azure Data Engineer
+https://www.youtube.com/watch?v=iQ41WqhHglk&t=90s
+
 
 
