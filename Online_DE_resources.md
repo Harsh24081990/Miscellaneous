@@ -55,4 +55,30 @@ https://spark.apache.org/docs/3.5.2/
 
 ----------------------------------------------
 
+Hello hashtag#DataEngineers 😀,
 
+here are few scenario based hashtag#DataBricks hashtag#Pyspark question, which was asked in hashtag#Data_Engineering interview.
+
+I have tried to solve and provided the solution in my hashtag#youtube hashtag#video
+https://lnkd.in/giFUQJ4A
+
+I have also provided hashtag#github repo link so you can take code from there.
+
+go and watch these solutions will help you hashtag#tremendously
+
+hashtag#Q1 How to read and write multiple csv files from different formats using Databricks in separate dataframes
+https://lnkd.in/gB98VbxS
+
+hashtag#Q2 How to read and write to SQL Server using Databricks
+https://lnkd.in/ghi8nkgf
+
+hashtag#Q3 How to add any value dynamically to all the columns using hashtag#Pyspark 
+https://lnkd.in/g2FB7ET3
+
+hashtag#Q4 How to rename multiple columns Dynamically using hashtag#Pyspark
+https://lnkd.in/gJgJDmAc
+
+hashtag#Q5 How to remove part file name and save output to single file with custom file name using hashtag#Pyspark
+https://lnkd.in/gqchbzx6
+
+----------------------------------------------------------------
