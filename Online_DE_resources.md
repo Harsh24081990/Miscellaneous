@@ -106,5 +106,19 @@ Here’s how you can master it by 2025!
 An End to End Azure Data Engineering Real Time Project Demo | Get Hired as an Azure Data Engineer
 https://www.youtube.com/watch?v=iQ41WqhHglk&t=90s
 
+--------------------------------------------------------------------
+# Data Engineering interview preparation (by Manish Kumar)
+youtube channel -- sql , python
+[Telesco](https://www.youtube.com/@Telusko)
+https://www.youtube.com/watch?app=desktop&v=ipHWWAU99AY
+
+Practice:-
+- HackerRank
+- GeeksForGeeks
+- Leetcode
+
+In Python -- solve array and string questions. 
+
+
 
 
