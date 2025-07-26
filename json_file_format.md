@@ -31,6 +31,10 @@
 df = spark.read.format("json") \
                .load("path_to_file.json")
 ```
+```
+## for reading multiple simple json files.
+df = spark.read.format("json").load("path/*.json")
+```
 #### For reading complex json file.
 ```python
 df = spark.read.format("json") \
