@@ -29,13 +29,14 @@
 #### For reading simple json file.
 ```python
 df = spark.read.format("json") \
+               .load("path_to_file.json")
+```
+#### For reading complex json file.
+```python
+df = spark.read.format("json") \
     .option("multiline", "true") \
     .load("path_to_file.json")
 ```
 
-#### For reading complex json file. 
-```python
-df = spark.read.format("json") \
-               .load("path_to_file.json")
-```
+
 
