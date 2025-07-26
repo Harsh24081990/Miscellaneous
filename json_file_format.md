@@ -1,4 +1,4 @@
-#### Json files are of 2 types.
+## Json files are of 2 types.
 ### 1. Simple json files. No need of using [ ]. Each line of file represent a row of data. 
 - Example
 ```
