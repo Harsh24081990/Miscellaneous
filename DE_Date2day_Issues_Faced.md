@@ -1,6 +1,4 @@
-If you haven’t worked directly in prod, you need **practical but safe examples** that every data engineer faces, especially in **ADF + Databricks with Medallion architecture**. Here’s a set you can always mention:
 
----
 
 ### 🔹 Common Production Issues You Can Confidently Talk About
 
