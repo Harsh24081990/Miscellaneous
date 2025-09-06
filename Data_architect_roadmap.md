@@ -4,6 +4,9 @@
 3. Data Architect
 4. Infrastructure Architect
 -----------------------
+
+# Data Architect Roadmap
+---------------
 <img width="1283" height="468" alt="image" src="https://github.com/user-attachments/assets/4922472d-7e68-4665-8d34-ea3dca84e34e" />
 
 
